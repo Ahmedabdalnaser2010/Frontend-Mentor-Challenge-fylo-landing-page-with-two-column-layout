@@ -199,17 +199,16 @@ form button:hover {
 }
 
 /* Body-section-two */
-.section-two .container {
+.section-two {
     background-color: var(--Light-Grayish-Blue);
     margin-top: 0;
 }
 
-.curve {
-    background-image: url(../images/bg-curve-mobile.svg);
-    height: 115px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
+.curve img {
+    width: 100%;
+    margin-bottom: -40px;
+    max-width: 100%;
+    display: block;
 
 }
 
@@ -317,7 +316,7 @@ form button:hover {
 
 /* section-three */
 
-.section-three .container {
+.section-three {
     background-color: var(--Desaturated-Blue);
     color: var(--Light-Grayish-Blue);
     padding: 20px 45px 40px;
@@ -335,8 +334,11 @@ form button:hover {
 }
 
 /* footer */
-.footer .container {
+.footer {
     background-color: var(--Very-Dark-Blue);
+}
+
+.footer .container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -468,11 +470,6 @@ form button:hover {
         -o-transform: translateX(0);
     }
 
-    /* curve shape */
-    .curve {
-        background-image: url(../images/bg-curve-desktop.svg);
-        height: 114px;
-    }
 
     /* green-link */
     .link {
