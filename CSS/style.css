@@ -141,15 +141,15 @@ form {
 form span {
     text-align: left;
     padding-left: 15px;
-    font-size: .3em;
+    font-size: 0.4em;
     color: red;
     display: none;
     position: static;
-    transform: translateX(-12%);
-    -webkit-transform: translateX(-12%);
-    -moz-transform: translateX(-12%);
-    -ms-transform: translateX(-12%);
-    -o-transform: translateX(-12%);
+    transform: translateX(-90%);
+    -webkit-transform: translateX(-90%);
+    -moz-transform: translateX(-90%);
+    -ms-transform: translateX(-90%);
+    -o-transform: translateX(-90%);
 }
 
 form input:invalid {
