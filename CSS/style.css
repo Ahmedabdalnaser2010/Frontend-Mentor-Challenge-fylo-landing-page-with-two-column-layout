@@ -68,7 +68,7 @@ h5 {
 .container {
     margin: 0 auto;
     padding: 20px 30px;
-    max-width: 1200px;
+    max-width: 1440px;
 }
 
 /* End of Global Rules */
@@ -471,7 +471,7 @@ form button:hover {
     /* curve shape */
     .curve {
         background-image: url(../images/bg-curve-desktop.svg);
-        height: 95px;
+        height: 114px;
     }
 
     /* green-link */
